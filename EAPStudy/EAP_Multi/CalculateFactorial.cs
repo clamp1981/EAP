@@ -1,4 +1,5 @@
-﻿using EAPStudy.EventArgs;
+﻿using EAPStudy.Delegate;
+using EAPStudy.EventArgs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +8,21 @@ using System.Threading.Tasks;
 
 namespace EAPStudy.EPA_Multi
 {
-    //1. completed and progress changed delegate 
-    public delegate void CalculateFactorialCompletedEventHandler(object sender, CalculateFactorialCompletedEventArgs e);
+   
+    
     public class CalculateFactorial
     {
+        public event CalculateFactorialCompletedEventHandler CalculateFactorialCompleted;
+        protected virtual void OnCalculateFactorialCompleted(CalculateFactorialCompletedEventArgs e)
+        {
+            CalculateFactorialCompleted?.Invoke(this, e);
+        }
+
+        //progress 이벤트 추가
+        public event CalculateProgressChangedEventHandler CalculateProgressChanged;
+        protected virtual void OnProgressChanged(CalculateProgressChangedEventArgs e)
+        {
+            CalculateProgressChanged?.Invoke(this, e);
+        }
     }
 }
