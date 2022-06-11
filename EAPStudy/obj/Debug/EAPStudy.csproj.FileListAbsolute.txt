@@ -1,9 +1,0 @@
-C:\JYK\study\EAPStudy\EAPStudy\bin\Debug\EAPStudy.exe.config
-C:\JYK\study\EAPStudy\EAPStudy\bin\Debug\EAPStudy.exe
-C:\JYK\study\EAPStudy\EAPStudy\bin\Debug\EAPStudy.pdb
-C:\JYK\study\EAPStudy\EAPStudy\obj\Debug\EAPStudy.Form1.resources
-C:\JYK\study\EAPStudy\EAPStudy\obj\Debug\EAPStudy.Properties.Resources.resources
-C:\JYK\study\EAPStudy\EAPStudy\obj\Debug\EAPStudy.csproj.GenerateResource.cache
-C:\JYK\study\EAPStudy\EAPStudy\obj\Debug\EAPStudy.csproj.CoreCompileInputs.cache
-C:\JYK\study\EAPStudy\EAPStudy\obj\Debug\EAPStudy.exe
-C:\JYK\study\EAPStudy\EAPStudy\obj\Debug\EAPStudy.pdb
