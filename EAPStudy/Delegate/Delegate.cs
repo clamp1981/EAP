@@ -1,7 +1,8 @@
-﻿using EAPStudy.EPA_Multi;
+﻿using EAPStudy.EAP_Multi;
 using EAPStudy.EventArgs;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,4 +15,5 @@ namespace EAPStudy.Delegate
 
     //다중 호출 구조의 완료 메서드는 따로 만들고 진행사항( Progress ) 이벤트는 같이 쓰기로 하자!!
     public delegate void CalculateFactorialCompletedEventHandler(object sender, CalculateFactorialCompletedEventArgs e);
+    public delegate void CalculateFactorialWorkerEventHandler( int  input,  AsyncOperation asynOp );
 }

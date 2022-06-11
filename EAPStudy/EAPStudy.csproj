@@ -46,9 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegate\Delegate.cs" />
+    <Compile Include="EAP_Multi\CalculateFactorial.cs" />
+    <Compile Include="EAP_Single\CalculateFactorial.cs" />
+    <Compile Include="EventArgs\CalculateFactorialCompletedEventArgs.cs" />
     <Compile Include="EventArgs\CalculateProgressChangedEventArgs.cs" />
     <Compile Include="EventArgs\CalculateCompletedEventAgrs.cs" />
-    <Compile Include="EPA_Single\CalculateFactorial.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

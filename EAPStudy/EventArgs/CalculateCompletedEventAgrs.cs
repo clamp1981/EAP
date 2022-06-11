@@ -16,19 +16,6 @@ namespace EAPStudy.EventArgs
             }
         }
 
-        //[EditorBrowsable(EditorBrowsableState.Never), Browsable(false)]
-        //public object UserState
-        //{
-        //    get
-        //    {
-
-        //        return base.UserState;
-        //    }
-
-        //}
-        
-
-
         public CalculateCompletedEventAgrs( object result, Exception error, bool cancelled, object userState ) 
             : base ( error, cancelled, userState )
         {

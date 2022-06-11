@@ -1,18 +1,13 @@
-﻿using EAPStudy.EventArgs;
+﻿using EAPStudy.Delegate;
+using EAPStudy.EventArgs;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
-namespace EAPStudy.EPA_Single
+
+namespace EAPStudy.EAP_Single
 {
-    public delegate void CalculateCompletedEventHandler(object sender, CalculateCompletedEventAgrs e);
-    public delegate void CalculateProgressChangedEventHandler(object sender, CalculateProgressChangedEventArgs e);
-
-    public delegate void CalculateWorkerEventHandler(object argument);
+    
     public class CalculateFactorial
     {
 
